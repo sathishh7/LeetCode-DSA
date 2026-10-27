@@ -14,17 +14,35 @@ public:
             minus=1;
             i++;
         }
+        else if(s[i]=='+'){
+            i++;
+        }
+        
         while(i<s.size()&&isdigit(s[i])){
        
             int val=s[i]-'0';
             if(minus){
                 val=val*(-1);
             }
-            res=res*10+val;
+            
+           
+            if(res>(INT_MAX/10)){
+                return INT_MAX;
+            }
+            else if(res==(INT_MAX/10) && val>7){
+                 return INT_MAX;
+            }
+            if(res<(INT_MIN/10)){
+                return INT_MIN;
+            }
+            else if(res==(INT_MIN/10) && val<-8){
+                return INT_MIN;
+            }
+             res=res*10+val;
             i++;
             
         }
-        if(!isdigit(s[i])){
+        if(i<s.size()&&!isdigit(s[i])){
             return res;
         }
         return res;
