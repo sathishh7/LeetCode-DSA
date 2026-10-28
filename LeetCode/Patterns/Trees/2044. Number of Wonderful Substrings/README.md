@@ -8,8 +8,8 @@
 Hash Table, String, Bit Manipulation, Prefix Sum
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 49 ms
+- **Memory:** 18.2 MB
 
 ---
 
