@@ -18,8 +18,6 @@ public:
         for(int i=0;i<s.size();i++){
             string str;
             for(int j=i;j<s.size();j++){
-                
-                
                 str.push_back(s[j]);
                 string rev=reverse(str);
                 if(str==rev){
