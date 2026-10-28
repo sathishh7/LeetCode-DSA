@@ -1,6 +1,6 @@
 # 📝 5. Longest Palindromic Substring (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/longest-palindromic-substring)
+🔗 [Problem Link](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
