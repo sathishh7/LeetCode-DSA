@@ -1,6 +1,6 @@
 # 📝 1915. Number of Wonderful Substrings (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/number-of-wonderful-substrings/)
+🔗 [Problem Link](https://leetcode.com/problems/number-of-wonderful-substrings)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 

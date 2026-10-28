@@ -1,13 +1,8 @@
 class Solution {
 public:
-    long long wonderfulSubstrings(string word) {
-        long long count =0;
-        
-        string s;
-        vector<int> check;
-        for(int i=0;i<word.size();i++){
-            for(int j=i;j<word.size();j++){
-                s=word.substr(i,j-i+1);
+    long long wonderfulSubstrings(string word){
+    long long count=0;
+            for(int i=0;i<word.size();i++){
                 long long A=0;
                 long long B=0;
                 long long C=0;
@@ -18,69 +13,77 @@ public:
                 long long H=0;
                 long long I=0;
                 long long J=0;
-                if(s.size()==1){
-                    count++;
-                    continue;
-                }
-                for(int k=0;k<s.size();k++){
-                    if(s[k]=='a'){
+                for(int j=i;j<word.size();j++){
+                    
+                    if(word[j]=='a'){
                         A++;
                     }
-                    if(s[k]=='b'){
+                    if(word[j]=='b'){
                         B++;
                     }
-                    if(s[k]=='c'){
+                    if(word[j]=='c'){
                         C++;
                     }
-                    if(s[k]=='d'){
+                    if(word[j]=='d'){
                         D++;
                     }
-                    if(s[k]=='e'){
+                    if(word[j]=='e'){
                         E++;
                     }
-                    if(s[k]=='f'){
+                    if(word[j]=='f'){
                         F++;
                     }
-                    if(s[k]=='g'){
+                    if(word[j]=='g'){
                         G++;
                     }
-                    if(s[k]=='h'){
+                    if(word[j]=='h'){
                         H++;
                     }
-                    if(s[k]=='i'){
+                    if(word[j]=='i'){
                         I++;
                     }
-                    if(s[k]=='j'){
+                    if(word[j]=='j'){
                         J++;
                     }
-
-                }
-                
-                
-                check.push_back(A);
-                check.push_back(B);
-                check.push_back(C);
-                check.push_back(D);
-                check.push_back(E);
-                check.push_back(F);
-                check.push_back(G);
-                check.push_back(H);
-                check.push_back(I);
-                check.push_back(J);
-            
-                int n=0;
-                for(int l=0;l<check.size();l++){
-                    if(check[l]%2!=0){
-                        n++;
+                    if(A%2!=0&&B%2==0&&C%2==0&&D%2==0&&E%2==0&&F%2==0&&G%2==0&&H%2==0&&I%2==0&&J%2==0){
+                        count++;
                     }
+                    if(A%2==0&&B%2!=0&&C%2==0&&D%2==0&&E%2==0&&F%2==0&&G%2==0&&H%2==0&&I%2==0&&J%2==0){
+                        count++;
+                    }
+                    if(A%2==0&&B%2==0&&C%2!=0&&D%2==0&&E%2==0&&F%2==0&&G%2==0&&H%2==0&&I%2==0&&J%2==0){
+                        count++;
+                    }
+                     if(A%2==0&&B%2==0&&C%2==0&&D%2!=0&&E%2==0&&F%2==0&&G%2==0&&H%2==0&&I%2==0&&J%2==0){
+                        count++;
+                    }
+                     if(A%2==0&&B%2==0&&C%2==0&&D%2==0&&E%2!=0&&F%2==0&&G%2==0&&H%2==0&&I%2==0&&J%2==0){
+                        count++;
+                    }
+                     if(A%2==0&&B%2==0&&C%2==0&&D%2==0&&E%2==0&&F%2!=0&&G%2==0&&H%2==0&&I%2==0&&J%2==0){
+                        count++;
+                    }
+                     if(A%2==0&&B%2==0&&C%2==0&&D%2==0&&E%2==0&&F%2==0&&G%2!=0&&H%2==0&&I%2==0&&J%2==0){
+                        count++;
+                    }
+                     if(A%2==0&&B%2==0&&C%2==0&&D%2==0&&E%2==0&&F%2==0&&G%2==0&&H%2!=0&&I%2==0&&J%2==0){
+                        count++;
+                    }
+                     if(A%2==0&&B%2==0&&C%2==0&&D%2==0&&E%2==0&&F%2==0&&G%2==0&&H%2==0&&I%2!=0&&J%2==0){
+                        count++;
+                    }
+                     if(A%2==0&&B%2==0&&C%2==0&&D%2==0&&E%2==0&&F%2==0&&G%2==0&&H%2==0&&I%2==0&&J%2!=0){
+                        count++;
+                    
                 }
-                check.clear();
-                if(n<=1){
-                    count++;
+                if(A%2==0&&B%2==0&&C%2==0&&D%2==0&&E%2==0&&F%2==0&&G%2==0&&H%2==0&&I%2==0&&J%2==0){
+                        count++;
+                    
                 }
-        }     
-            
-    }
+                
+            }
+        }
         return count;
-    }
+}
+
 };
