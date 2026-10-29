@@ -1,28 +1,36 @@
 class Solution {
 public:
     
+    double rec(double l,double x,long long y ){
+        if(y==0){
+            return 1;
+        }
+        if(y==1){
+            return x;
+        }
+        if(y>1){
+            x=x*l;
+            y--;
+            return rec(l,x,y);
+
+        }
+        return 0.0;
+    }
     double myPow(double x, int n) {
-        //your code goes here
         double l=x;
         double rev=0.0;
-        if(n>0){
-            for(int i=1;i<n;i++){
-               x*=l;
-
-            }
-
+        long long m=n;
+        if(m>0){
+            return rec(l,x,m);
         }
         else{
-            int m=(n*(-1));
-            for(int i=1;i<m;i++){
-               x*=l;
-
-            }
-            rev=(1/x);
-            return rev;
-
-
+             m=(-m);
+            
+            rev=rec(l,x,m);
+            return (1/rev);
         }
-        return x;
+    
+        return 0;
+
     }
 };
