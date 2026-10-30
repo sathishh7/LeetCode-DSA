@@ -1,6 +1,7 @@
 class Solution {
 public:
     int reverse(int x) {
+        
         int n;
         int rev=0;
         if(x>0){
