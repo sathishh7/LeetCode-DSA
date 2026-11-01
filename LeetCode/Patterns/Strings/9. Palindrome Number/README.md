@@ -2,7 +2,7 @@
 
 🔗 [Problem Link](https://leetcode.com/problems/palindrome-number/)
 
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-Plaintext-blue)
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
 ### 💡 Tags
 Math
