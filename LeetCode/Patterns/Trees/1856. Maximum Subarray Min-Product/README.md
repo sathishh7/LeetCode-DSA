@@ -1,6 +1,6 @@
 # 📝 1856. Maximum Subarray Min-Product (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/maximum-subarray-min-product)
+🔗 [Problem Link](https://leetcode.com/problems/maximum-subarray-min-product/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Plaintext-blue)
 
