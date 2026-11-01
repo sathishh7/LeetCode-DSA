@@ -6,8 +6,7 @@ public:
             for(int j=i;j<haystack.size();j++){
                 str.push_back(haystack[j]);
                 if(str==needle){
-                    char sr=str[0];
-                    return haystack.find(sr);
+                    return i;
                 }
             }
         }
