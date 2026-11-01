@@ -1,12 +1,9 @@
 class Solution {
 public:
     int divide(int dividend, int divisor) {
-       if(dividend>INT_MAX/10){
+       if (dividend == INT_MIN && divisor == -1) {
         return INT_MAX;
-       }
-       if(dividend<INT_MIN/10){
-            return INT_MIN;
-       }
+        }
        int quot=0;
        if(dividend >0 && divisor>0){
          while(dividend>=divisor){
