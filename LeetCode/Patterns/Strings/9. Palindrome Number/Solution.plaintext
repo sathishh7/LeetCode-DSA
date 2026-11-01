@@ -1,0 +1,17 @@
+           /* int m=-x;
+            return false;
+        if(x<0){
+            while(m>0){
+            n=m%10;
+            rev=(rev*10)+n;
+            m/=10;
+        }
+        rev=-rev;
+        */
+        }
+        if(rev==pal){
+            return true;
+        }
+        return false;
+    }
+};
