@@ -15,17 +15,19 @@ public:
     }
     string longestPalindrome(string s) {
         string max_s;
+        string rev;
+        int max_len=0;
         for(int i=0;i<s.size();i++){
             string str;
             for(int j=i;j<s.size();j++){
                 str.push_back(s[j]);
-                string rev=reverse(str);
+                rev=reverse(str);
                 if(str==rev){
-                    if((max_s.size())<(str.size())){
+                    if(str.size()>max_len){
+                        max_len=str.size();
                         max_s=str;
                     }
                 }
-        
             }
         }
         return max_s;
