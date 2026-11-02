@@ -8,7 +8,7 @@ public:
             }
         }
         else{
-            n=-n;
+            longn=-n;
             for(int i=1;i<n;i++){
             x=l*x;
             }
