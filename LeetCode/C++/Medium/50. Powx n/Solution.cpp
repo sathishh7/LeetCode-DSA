@@ -1,21 +1,35 @@
 class Solution {
 public:
+    double po(double x, long long m,double l){
+        if(m==0){
+        return 1/x;
+       }
+       x=l*x;
+       m--;
+       return po(x,m,l);
+    }
+    double pw(double x, int n,double l){
+        if(n==0){
+        return x;
+       }
+       x=l*x;
+       n--;
+       return pw(x,n,l);
+    }
+
     double myPow(double x, int n) {
         double l=x;
-        if(n>0){
-            for(int i=1;i<n;i++){
-            x=l*x;
-            }
+        if(n<0){
+            long long m=n;
+            m=-m;
+            m--;
+            return po(x,m,l);
         }
-        else{
-            longn=-n;
-            for(int i=1;i<n;i++){
-            x=l*x;
-            }
-            x=1/x;
+        if(n==0){
+            return 1;
         }
         
-        
-        return x;
+        n=n-1;
+        return pw(x,n,l);
     }
 };
