@@ -2,9 +2,7 @@ class Solution {
 public:
 
     double pw(double x, int n,double l){
-        if(n==0){
-        return x;
-       }
+       
        
        if(n%2==0){
        x=x*x;
@@ -13,9 +11,9 @@ public:
        }
        else{
         if(n==1){
-            return l*x;
+            return x;
         }
-        n=n-1;
+        l=x;
         x=x*x;
         n/=2;
        return l*pw(x,n,l);
@@ -23,9 +21,7 @@ public:
        }
     }
     double po(double x,long long m,double l){
-            if(m==0){
-                return 1/x;
-            }
+            
             if(m%2==0){
                 x=x*x;
                 m/=2;
@@ -33,9 +29,9 @@ public:
             }
             else{
                 if(m==1){
-                    return 1/(l*x);
+                    return 1/(x);
                 }
-                m-=1;
+                l=x;
                 x*=x;
                 m/=2;
                 return (1/l)*po(x,m,l);
@@ -51,14 +47,18 @@ public:
         double l=x;
         long long m;
         if(n>0){
-            n=n-1;
+            if(n==1){
+                return x;
+            }
         return pw(x,n,l);
         }
         
         else{
             m=n;
             m=-m;
-            m-=1;
+            if(m==1){
+                return 1/x;
+            }
             return po(x,m,l);
         }
 
