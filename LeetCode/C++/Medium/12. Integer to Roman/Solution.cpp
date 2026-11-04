@@ -14,7 +14,7 @@ public:
             num-=1000;
             s.push_back(m);
         }
-        if(num>=900){
+        if((num-900)>=0){
             num-=900;
             s.push_back(c);
             s.push_back(m);
@@ -23,7 +23,7 @@ public:
             num-=500;
             s.push_back(d);
         }
-        if(num==400){
+        if((num-400)>=0){
             num-=400;
             s.push_back(c);
             s.push_back(d);
@@ -49,7 +49,7 @@ public:
 
         }
         
-        while((num-10)>0){
+        while((num-10)>=0){
             num-=10;
             s.push_back(x);
         }
