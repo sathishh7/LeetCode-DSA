@@ -1,6 +1,6 @@
 # 📝 2089. Find Target Indices After Sorting Array (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/find-target-indices-after-sorting-array)
+🔗 [Problem Link](https://leetcode.com/problems/find-target-indices-after-sorting-array/?envType=daily-question&envId=2026-10-31)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
