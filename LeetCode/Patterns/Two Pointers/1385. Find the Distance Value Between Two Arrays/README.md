@@ -1,6 +1,6 @@
 # 📝 1385. Find the Distance Value Between Two Arrays (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/?envType=daily-question&envId=2026-11-05)
+🔗 [Problem Link](https://leetcode.com/problems/find-the-distance-value-between-two-arrays)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
