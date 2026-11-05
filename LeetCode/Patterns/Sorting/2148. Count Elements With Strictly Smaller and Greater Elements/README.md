@@ -1,6 +1,6 @@
 # 📝 2148. Count Elements With Strictly Smaller and Greater Elements (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)
+🔗 [Problem Link](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
