@@ -1,6 +1,6 @@
 # 📝 3612. Process String with Special Operations I (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/process-string-with-special-operations-i/?envType=daily-question&envId=2026-11-06)
+🔗 [Problem Link](https://leetcode.com/problems/process-string-with-special-operations-i)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 

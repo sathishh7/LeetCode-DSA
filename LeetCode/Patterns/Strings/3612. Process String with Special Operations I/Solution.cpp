@@ -11,22 +11,20 @@ public:
             }
             else if(s[i]=='*'){
                 if(str.size()!=0){
-                    string temp;
-                    for(int j=0;j<str.size()-1;j++){
-                        temp+=str[j];
-                    }
-                    str=temp;
+                   str.pop_back();
                 }
             }
             else if(s[i]=='%'){
+                if(str.size()!=0){
                 int l=0;
                 int k=str.size()-1;
-                while(l<=k){
+                    while(l<=k){
                     char t=str[k];
                     str[k]=str[l];
                     str[l]=t;
                     l++;
                     k--;
+                 }
                 }
             }
 
