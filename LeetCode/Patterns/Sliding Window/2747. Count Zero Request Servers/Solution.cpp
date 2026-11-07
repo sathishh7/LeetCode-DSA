@@ -1,6 +1,10 @@
 class Solution {
 public:
     vector<int> countServers(int n, vector<vector<int>>& logs, int x, vector<int>& queries) {
+         sort(logs.begin().logs.end());
+         sort(queries.begin(),queries.end());
+         
+        
         /*int no_receive;
         int k=0;
         vector<int> arr;
@@ -19,7 +23,7 @@ public:
             k++;
         }
         return arr;
-
+        */
         
     }
 };
