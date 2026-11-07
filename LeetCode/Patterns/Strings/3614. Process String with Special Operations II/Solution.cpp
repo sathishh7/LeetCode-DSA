@@ -31,11 +31,8 @@ public:
          }
          char c;
          long long check=pow(10,15);
-         if(str.size()==0){
-            c='.';
-            return c;
-         }
-         if(str.size()<=check){
+         
+         if(k<str.size()){
             c=str[k];
          }
          else{
