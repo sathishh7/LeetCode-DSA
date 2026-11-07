@@ -1,6 +1,6 @@
 # 📝 3838. Weighted Word Mapping (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/weighted-word-mapping/?envType=daily-question&envId=2026-11-07)
+🔗 [Problem Link](https://leetcode.com/problems/weighted-word-mapping)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-brightgreen) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
