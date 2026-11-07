@@ -1,6 +1,6 @@
 # 📝 3756. Concatenate Non-Zero Digits and Multiply by Sum II (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/)
+🔗 [Problem Link](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-C++-blue)
 
